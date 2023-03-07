@@ -1,0 +1,256 @@
+﻿/*Стили для первого слайда*/
+.firstSlide{
+    background-image: url('img/red-haired-lady-eyeglasses-holds-books-shows-ok-sign.png');
+    background-repeat: no-repeat;
+    background-position: right 10% top 30%;
+    background-size: 35%;
+    background-color: white;
+}
+.topDiv{
+    display: flex;
+    margin: 0% 0% 2% 0%; 
+}
+.brandLogo{
+    margin: 2% 0% 0% 11%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.topMenu{
+    list-style-type: none;
+    display: flex;
+    margin: 2% 5% 0% 6%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: gray;
+    font-size: 15px;
+}
+.menuEl{
+    padding: 0px 0px 0px 15px;
+    cursor: pointer;
+}
+.menuEl:hover{
+    color: black;
+}
+.loginButton{
+    margin: 0.7% 0% 0% 15%;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    color: #96BB7C;   
+    padding: 1.5% 1% 0% 1%;
+    font-weight: 700;
+    cursor: pointer;
+}
+.loginButton:hover{
+    background-color: #96BB7C;
+    color: white;
+    transition: 0.5s;
+}
+.loginButton:active{
+    background: rgb(0, 70, 0);
+    transition: 0.1s;
+}
+.joinButton{
+    margin: 0.7% 0% 0% 2%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #96BB7C;
+    padding: 16px 15px 16px 16px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.joinButton:hover{
+    background: green;
+    transition: 0.5s;
+}
+.joinButton:active{
+    background: rgb(0, 70, 0);
+    transition: 0.1s;
+}
+.joinButtIco{
+    display: inline-block;
+    padding: 0px 0px 0px 12px;
+    height: 14px;
+}
+.bannerDiv{
+    background: linear-gradient(to right, #EFF8ED, rgb(245, 253, 245));
+    margin: 0% 50% 0% -1%;
+    padding: 5% 0% 10% 11%;
+}
+.trainingLogo{
+    color: #96BB7C;
+    font-family: 'Montserrat', sans-serif;
+}
+.trustUsLogo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;    
+}
+.ourGoal{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0% 0% 10% 0%;
+    color: gray;
+    letter-spacing: 0.2px;
+}
+.quoteBtn{
+    margin: 0% 0% 0% 0%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #96BB7C;
+    padding: 16px 15px 16px 16px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.quoteBtn:hover{
+    background: green;
+    transition: 0.5s;
+}
+.quoteBtn:active{
+    background: rgb(0, 70, 0);
+    transition: 0.1s;
+}
+.learnBtn{
+    margin: 0% 0% 0% 1%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 16px 15px 16px 16px;
+    border-radius: 5px;
+    color: #96BB7C;
+    border: solid 1px #96BB7C; 
+    font-weight: bold;
+    cursor: pointer;
+}
+.learnBtn:hover{
+    background-color: #96BB7C;
+    color: white;
+    transition: 0.5s;
+}
+.learnBtn:active{
+    background: rgb(0, 70, 0);
+    transition: 0.1s;
+}
+.cardsDiv{
+    display: flex;
+    margin: -3% 0% 0% 10%;
+}
+.firstCardDiv{
+    margin: 0% 5% 0% 0%;
+
+}
+.secondCardDiv{
+    margin: 0% 5% 0% 0%;
+}
+.thirdCardDiv{
+    margin: 0% 0% 0% 0%;
+}
+/*Стили для второго слайда*/
+.secondSlide{
+    display: flex;
+    margin: -14% 0% 200px 0%;
+}
+.banner{
+    margin: 20% 0% 0% 14%;
+}
+.logoText{
+    margin: 20% 0% 0% 8%;
+}
+.thinRedThread{
+    border: solid #E74040;
+    background-color: #E74040;
+    width: 94px;
+    height: 7px;
+}
+.textHead{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px
+}
+.textParagraf{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color:#737373;
+    margin: 0% 0% 10% 0%;
+}
+.textLink{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 0% 0% 0% 0%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #96BB7C;
+}
+.arrowRight{
+    border: solid #96BB7C;
+    border-width: 0 3px 3px 0;
+    border-radius: 1px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.textLink:hover{
+    border-bottom: solid;
+    transition: 0.1s;    
+}
+.textLink:active{
+    color: rgb(0, 70, 0);
+    transition: 0.1s;
+}
+.subscribe{
+    margin: 10% 0% 0% 0%;
+}
+.inpEmail{
+    width: 265px;
+    height: 58px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    font-size: 15px;
+    color:#737373;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+}
+.inpEmail._error{
+    box-shadow: 0 0 30px red;
+}
+.inpEmail::placeholder{
+    color:#737373;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 14px;
+    width: 190px;
+    font-size: 14px;
+}
+.inpEmail:active, :hover, :focus{
+    outline: 0;
+    outline-offset: 0;
+}
+.incorrect{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin: 6% 0% 0% 4%;
+    visibility: hidden;
+    color: red;
+}
+.subsBttn{
+    margin: 0px 0px 0px 270px;
+    padding: 23px 25px 23px 25px;
+    background: #96BB7C;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
+}
+.subsBttn:hover{
+    background: green;
+    transition: 0.1s;
+}
+.subsBttn:active{
+    background: rgb(0, 70, 0);
+    transition: 0.1s;
+}
